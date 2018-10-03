@@ -1,0 +1,47 @@
+body{
+  background: lightgrey;
+}
+table{
+  width: 800px;
+  margin: auto;
+}
+
+th{
+  padding:30px;
+}
+
+h1{
+  color: white;
+}
+td{
+  padding:30px;
+  border: 1px solid #F7F7F5;
+}
+
+a{
+  td{
+    padding: 5px;
+  }
+}
+
+.new{
+  margin-top: 20px;
+  margin-left: 41%;
+  a{
+    color: red;
+  }
+}
+
+.form{
+  margin: auto;
+}
+
+.lead{
+  color: white;
+}
+
+.jumbotron{
+  height: 500px;
+  background: url('jumbo.jpeg');
+  background-size: 100% 500px;
+}
