@@ -1,0 +1,23 @@
+* 2 resources of your (work-appropriate) choice connected by one of the following Active Record Associations (declared on each model)
+    * One-to-Many
+    * Many-to-Many
+    * Has-One
+    * Belongs to
+* Both resources must have multiple validations
+    * Between 1 and 3 on each column name
+    * Try to use each one once
+* you can't use `rails g scaffold <resource>`
+* You have to use:
+    * `rails g scaffold_controller <resource>`, adding the Column Names into the params at the bottom
+    * `rails g model <Resource>`
+    * Connect the Controller and the Model in the Views
+* Bring in Bootstrap into the Asset Pipeline
+
+It must Have:
+
+* Navbar
+* Landing page with a jumbotron
+* README
+* Proper Git Workflow
+
+A movie theater and screens. One theatre usually has multiple screens and each screen belongs to one theatre

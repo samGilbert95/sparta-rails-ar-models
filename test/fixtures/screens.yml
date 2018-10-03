@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  screen_no: 1
+  film_playing: MyString
+  cinema_id: 1
+
+two:
+  screen_no: 1
+  film_playing: MyString
+  cinema_id: 1

@@ -1,0 +1,21 @@
+Repo Name: sparta_rails_intro_hw
+
+create repo w/o readme
+git add .
+git commit -m "message"
+git remote add oigin "github address"
+git push -u (sets upstream) origin master
+
+after add protections
+
+build single resourse w/o scaffold (can use scaffold-controller)
+artur has list of rails tips on teams
+
+Will need to use:
+
+rails new sparta_rails_intro_hw -d postgresql
+rake db:create
+rails g scaffold_controller <name>
+rails g model <resourse> <columns>
+rake db:migrate
+fix views
